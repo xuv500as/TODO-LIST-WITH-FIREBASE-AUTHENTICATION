@@ -1,0 +1,66 @@
+.row{
+
+    text-align: center;
+    background-color: #3344;
+    height: 35px;
+}
+
+form{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding:5px;
+    color: white;
+    
+}
+
+.SignUp{
+    font-size:20px;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+
+.SignIn{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+.head1{
+    text-align: center;
+    font: 25px;
+    font-family: cursive;
+    color:white;
+}
+.App{
+    background-image: url(./BackGroundImg.avif);
+    background-size: cover;
+    height: 670px;
+}
+
+.forgot{
+    color: white;
+    font-size: 25px;
+}
+
+.email,.password,.submit{
+    width: 25%;
+    height: 25px;
+    margin: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.submit{
+    width: 25%;
+    height: 35px;
+    margin: 5px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+*{
+    overflow: hidden;
+}
